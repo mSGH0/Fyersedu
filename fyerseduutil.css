@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  font-size: 2.5vh;
+  font-family: "";
+}
+:root{
+  --greenA: lawngreen;
+  --greenB: yellowgreen;
+  --lavenderb: lavendarblush;
+}
+
+html,
+body{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  width: 100vw;
+  height: 100vh;
+  background: green;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  font-size: 5vh;
+}
+
+h2{
+  font-size: 4.5vh;
+}
+
+h3{
+  font-size: 4vh;
+}
+
+h4{
+  font-size: 3.4vh;
+}
+
+h5{
+  font-size: 3vh;
+}
+
+h6{
+  font-size: 2.5vh;
+}
+
+.fi-none{
+  display: none;
+}
+
+.fi-flex{
+  display: flex;
+}
+
+.fi-alignvc{
+  align-items: center;
+}
+
+.fi-hcenter{
+  justify-content: center;
+}
+
+.fi-spacebtw{
+  justify-content: space-between;
+}
+
+.fi-spaceevenly{
+  justify-content: space-evenly;
+}
+
+.fi-white{
+  background: white;
+}
+
+.fi-w100{
+  width: 100%;
+}
+
+.fi-w50{
+  width: 50%;
+}
+
+.fi-h100{
+  height: 100%;
+}
+
+.fi-w30{
+  width: 30%;
+}
+
+.fi-w70{
+  width:70%;
+}
+
+.fi-w80{
+  width:80%;
+}
+
+.fi-grid{
+  display: grid;
+}
+
+.fi-flexAlVHC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fi-grid-a{
+  grid-templates-columns: 100%;
+  grid-templates-rows: repeat(4, 1fr);
+}
+
+
